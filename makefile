@@ -1,0 +1,6 @@
+output:HotelMenuCardManagementUsingSingleLinkedList.o HotelMenuCardOperations.o
+	g++ HotelMenuCardManagementUsingSingleLinkedList.o HotelMenuCardOperations.o -o output
+HotelMenuCardManagementUsingSingleLinkedList.o:HotelMenuCardManagementUsingSingleLinkedList.cpp
+	g++ -c HotelMenuCardManagementUsingSingleLinkedList.cpp
+HotelMenuCardOperations.o:HotelMenuCardOperations.cpp
+	g++ -c HotelMenuCardOperations.cpp
